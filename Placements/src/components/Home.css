@@ -1,0 +1,162 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5%;
+    overflow: hidden;
+    background-color: rgb(230, 117, 25);
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+  }
+  body{
+    background-color: #e6edee;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-decoration: none !important;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  
+  .normal{
+    padding-top: 5px;
+    float:right;
+  }
+  .brand{
+    font-size: 1.5rem;
+  }
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(5, 18, 20, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgb(211, 159, 159);
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #edf5f5;
+    font-size: 12px;
+  }
+  
+  .login-box form .a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left:20px;
+    color: #101718;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .login-box .a:hover {
+    background: #060a0a;
+    color: rgb(240, 229, 229);
+    border-radius: 5px;
+  }
+  
+  .login-box .a span {
+    position: absolute;
+    display: block;
+  }
+  
+  .container{
+    margin-top: 50px;
+  }
+  .row{
+    
+    text-align: center;
+  }
+  .images-1{
+    height:200px;
+    width:200px;
+    left:150px;
+    top:150px;
+    border-radius: 100%;
+  }
+  .images-2{
+    height:200px;
+    width:200px;
+    left:350px;
+    top:150px;
+    border-radius: 100%;
+  }
+  .images-3{
+    height:200px;
+    width:200px;
+    top:350px;
+    left:150px;
+    border-radius: 100%;
+  }
+  .images-4{
+    height:200px;
+    width:200px;
+    top:350px;
+    left:350px;
+    border-radius: 100%;
+  }
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: rgb(206, 42, 42);
+  }
+  
